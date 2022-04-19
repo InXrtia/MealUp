@@ -25,7 +25,7 @@
         android:layout_height="30dp"
         android:id="@+id/textview7"
         android:fontFamily="cursive"
-        android:text="Apne Ghar Ka Swad Anusar"
+        android:text="Apne Ghar Ka Swad Anusar sdmasl"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="17sp"
