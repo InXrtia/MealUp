@@ -62,15 +62,16 @@
             android:text="sign with phone" />
 
         <Button
-            android:id="@+id/Loginbutton"
+            android:id="@+id/Signup"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="@drawable/btnred"
+            android:background="@drawable/btnpurpuliesh"
             android:drawableLeft="@android:drawable/ic_lock_idle_lock"
             android:paddingLeft="10dp"
             android:text="Login with mail" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

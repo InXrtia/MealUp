@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
 import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -13,19 +12,18 @@ import android.widget.ImageView;
 
 public class Mainmenu extends AppCompatActivity {
 
-    Button signinemail, signinphone, login;
-    ImageView img2;
+    Button signinemail,signinphone,signup;
+    ImageView bgimage;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mainmenu);
 
-        final Animation zoomin = AnimationUtils.loadAnimation(this,R.anim.zoomin);
-        final Animation zoomout = AnimationUtils.loadAnimation(this,R.anim.zoomout);
-
-        img2= findViewById(R.id.back2);
-        img2.setAnimation(zoomin);
-        img2.setAnimation(zoomout);
+        final Animation zoomin = AnimationUtils.loadAnimation(this, R.anim.zoomin);
+        final Animation zoomout = AnimationUtils.loadAnimation(this, R.anim.zoomout);
+        bgimage = findViewById(R.id.back2);
+        bgimage.setAnimation(zoomin);
+        bgimage.setAnimation(zoomout);
 
         zoomout.setAnimationListener(new Animation.AnimationListener() {
             @Override
@@ -35,7 +33,7 @@ public class Mainmenu extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-        img2.startAnimation(zoomin);
+                bgimage.startAnimation(zoomin);
             }
 
             @Override
@@ -52,7 +50,7 @@ public class Mainmenu extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-            img2.startAnimation(zoomout);
+                bgimage.startAnimation(zoomout);
             }
 
             @Override
@@ -61,16 +59,46 @@ public class Mainmenu extends AppCompatActivity {
             }
         });
 
-        signinemail=(Button)findViewById(R.id.SignwithEmail);
-        login=(Button)findViewById(R.id.Loginbutton);
-        signinphone=(Button)findViewById(R.id.SignwithPhone);
 
-        signinemail.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent signemail = new Intent(Mainmenu.this, Chooseone.class);
-            }
-        });
+        signinemail = (Button) findViewById(R.id.SignwithEmail);
+        signinphone = (Button) findViewById(R.id.SignwithPhone);
+        signup = (Button) findViewById(R.id.Signup);
+//
+//        signinemail.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent signemail = new Intent(Mainmenu.this, ChooseOne.class);
+//                signemail.putExtra("Home", "Email");
+//                startActivity(signemail);
+//                finish();
+//            }
+//        });
+//
+//signinphone.setOnClickListener(new View.OnClickListener() {
+//    @Override
+//    public void onClick(View view) {
+//        Intent signphone = new Intent(Mainmenu.this,ChooseOne.class);
+//        signphone.putExtra("Home" , "phone");
+//        startActivity(signphone);
+//        finish();
+//    }
+//});
+//
+//signup.setOnClickListener(new View.OnClickListener() {
+//    @Override
+//    public void onClick(View view) {
+//        Intent signup = new Intent(Mainmenu.this,ChooseOne.class);
+//        signup.putExtra("Home" , "signup");
+//        startActivity(signup);
+//        finish();
+//    }
+//});
 
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        System.gc();
     }
 }
