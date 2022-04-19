@@ -6,13 +6,69 @@
     android:layout_height="match_parent"
     tools:context="Mainmenu">
 
-    <TextView
-        android:id="@+id/textView"
+    <ImageView
+        android:id="@+id/back2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mainmenu"
+        android:src="@drawable/img2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="275dp"
+        android:layout_height="390dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical"
+        android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="200dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:src="@drawable/img4" />
+
+        <Button
+            android:id="@+id/SignwithEmail"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/btnred"
+            android:drawableLeft="@drawable/whitemail"
+            android:paddingLeft="10dp"
+            android:text="sign with mail" />
+
+        <Button
+            android:id="@+id/SignwithPhone"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btnred"
+            android:drawableLeft="@drawable/whitephone"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:text="sign with phone" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btnred"
+            android:paddingLeft="10dp"
+            android:text="Login" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
