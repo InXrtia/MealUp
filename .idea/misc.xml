@@ -3,20 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MealUp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.124" />
-        <entry key="..\:/MealUp/app/src/main/res/drawable/btnshape.xml" value="0.124" />
-        <entry key="..\:/MealUp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.124" />
-        <entry key="..\:/MealUp/app/src/main/res/drawable/whitemail.xml" value="0.124" />
-        <entry key="..\:/MealUp/app/src/main/res/drawable/whitephone.xml" value="0.124" />
-        <entry key="..\:/MealUp/app/src/main/res/layout/activity_choose_one.xml" value="0.16" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_mainmenu.xml" value="0.128" />
+        <entry key="..\:/project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.233" />
         <entry key="..\:/project/app/src/main/res/drawable/background_shape.xml" value="0.216" />
         <entry key="..\:/project/app/src/main/res/drawable/btnblue.xml" value="0.216" />
         <entry key="..\:/project/app/src/main/res/drawable/btnpurpuliesh.xml" value="0.216" />
         <entry key="..\:/project/app/src/main/res/drawable/btnred.xml" value="0.1" />
         <entry key="..\:/project/app/src/main/res/drawable/btnshape.xml" value="0.216" />
+        <entry key="..\:/project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.233" />
         <entry key="..\:/project/app/src/main/res/drawable/whitemail.xml" value="0.216" />
+        <entry key="..\:/project/app/src/main/res/drawable/whitephone.xml" value="0.233" />
+        <entry key="..\:/project/app/src/main/res/layout/activity_chef_registration.xml" value="0.25" />
+        <entry key="..\:/project/app/src/main/res/layout/activity_cheflogin.xml" value="0.25" />
+        <entry key="..\:/project/app/src/main/res/layout/activity_choose_one.xml" value="0.25" />
+        <entry key="..\:/project/app/src/main/res/layout/activity_delivery_login.xml" value="0.25" />
+        <entry key="..\:/project/app/src/main/res/layout/activity_loginphone.xml" value="0.2359375" />
         <entry key="..\:/project/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/project/app/src/main/res/layout/activity_mainmenu.xml" value="0.264" />
       </map>

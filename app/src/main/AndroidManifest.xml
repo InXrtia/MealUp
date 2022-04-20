@@ -10,6 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mealup">
         <activity
+            android:name=".Delivery_Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Delivery_Loginphone"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".Loginphone"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".ChefRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Chefloginphone"
+            android:exported="false" />
+        <activity
+            android:name=".Cheflogin"
+            android:exported="false" />
+        <activity
             android:name=".ChooseOne"
             android:exported="false" />
         <activity
