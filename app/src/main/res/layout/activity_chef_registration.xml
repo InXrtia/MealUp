@@ -23,14 +23,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/Firstname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
-                android:textColorHint="#171616"
                 app:errorEnabled="false"
                 app:helperTextEnabled="false">
 
@@ -46,8 +45,7 @@
                 android:id="@+id/Lastname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="11dp"
-                android:textColorHint="#3A3838">
+                android:layout_marginTop="11dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -61,15 +59,54 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp">
 
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:drawablePadding="10dp"
+                android:hint="Email id"
+                android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                app:passwordToggleEnabled="true">
+
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Email id"
-                    android:inputType="textEmailAddress" />
+                    android:hint="Password"
+                    android:inputType="textPassword" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Cpass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="11dp"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/houseNo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp">
@@ -77,10 +114,12 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="House/Street no"
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Area"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp">
@@ -88,8 +127,60 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:hint="Area"
+                    android:inputType="textMultiLine" />
             </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/Pincode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Pin Code"
+                    android:inputType="number" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/statee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:text="City" />
+
+            <Spinner
+                android:id="@+id/Citys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" />
+
+            <Button
+                android:id="@+id/Signup"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_shape"
+                android:text="Register"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
         </LinearLayout>
     </ScrollView>
 
