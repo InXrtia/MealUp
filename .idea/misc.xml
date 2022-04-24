@@ -10,11 +10,12 @@
         <entry key="..\:/MealUp/app/src/main/res/drawable/whitephone.xml" value="0.124" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_chef_registration.xml" value="0.16" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_cheflogin.xml" value="0.13541666666666666" />
+        <entry key="..\:/MealUp/app/src/main/res/layout/activity_chefloginphone.xml" value="0.23854166666666668" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_choose_one.xml" value="0.16" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_login.xml" value="0.13541666666666666" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_loginphone.xml" value="0.13541666666666666" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_registration.xml" value="0.13541666666666666" />
-        <entry key="..\:/MealUp/app/src/main/res/layout/activity_login.xml" value="0.13541666666666666" />
+        <entry key="..\:/MealUp/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_loginphone.xml" value="0.13541666666666666" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_mainmenu.xml" value="0.16" />
