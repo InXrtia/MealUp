@@ -67,7 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="@drawable/btnpurpuliesh"
+            android:background="@drawable/btnblueish"
             android:drawableLeft="@android:drawable/ic_lock_idle_lock"
             android:paddingLeft="10dp"
             android:text="SignUp" />
