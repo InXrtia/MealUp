@@ -175,7 +175,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
-                android:background="@drawable/button_shape"
+                android:background="@drawable/btnshape"
                 android:text="Register"
                 android:textAllCaps="true"
                 android:textColor="#FFFFFF"
