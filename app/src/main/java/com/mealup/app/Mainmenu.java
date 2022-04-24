@@ -78,7 +78,7 @@ signinphone.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         Intent signinphone = new Intent(Mainmenu.this,ChooseOne.class);
-        signinphone.putExtra("Home" , "phone");
+        signinphone.putExtra("Home" , "Phone");
         startActivity(signinphone);
         finish();
     }
@@ -88,7 +88,7 @@ signup.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
         Intent signup = new Intent(Mainmenu.this,ChooseOne.class);
-        signup.putExtra("Home" , "signup");
+        signup.putExtra("Home" , "Signup");
         startActivity(signup);
         finish();
     }

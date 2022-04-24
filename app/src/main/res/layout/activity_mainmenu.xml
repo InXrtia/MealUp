@@ -70,7 +70,7 @@
             android:background="@drawable/btnpurpuliesh"
             android:drawableLeft="@android:drawable/ic_lock_idle_lock"
             android:paddingLeft="10dp"
-            android:text="Login with mail" />
+            android:text="SignUp" />
 
     </LinearLayout>
 
