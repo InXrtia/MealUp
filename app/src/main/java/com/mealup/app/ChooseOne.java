@@ -55,14 +55,14 @@ public class ChooseOne extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 if(type.equals("Email")){
-                    Intent loginemail  = new Intent(ChooseOne.this,Cheflogin.class);
-                    startActivity(loginemail);
-                    finish();
+                    Intent loginwithemail  = new Intent(ChooseOne.this,Cheflogin.class);
+                    startActivity(loginwithemail);
+                    //finish();
                 }
                 if(type.equals("Phone")){
                     Intent loginphone  = new Intent(ChooseOne.this,Chefloginphone.class);
                     startActivity(loginphone);
-                    finish();
+                   // finish();
                 }
                 if(type.equals("Signup")){
                     Intent Register  = new Intent(ChooseOne.this,ChefRegistration.class);
@@ -78,14 +78,14 @@ public class ChooseOne extends AppCompatActivity {
                 if(type.equals("Email")){
                     Intent loginemailcust  = new Intent(ChooseOne.this,Login.class);
                     startActivity(loginemailcust);
-                    finish();
+                    //finish();
                 }
                 if(type.equals("Phone")){
                     Intent loginphonecust  = new Intent(ChooseOne.this,Loginphone.class);
                     startActivity(loginphonecust);
-                    finish();
+                  // finish();
                 }
-                if(type.equals("SignUp")){
+                if(type.equals("Signup")){
                     Intent Registercust  = new Intent(ChooseOne.this,Registration.class);
                     startActivity(Registercust);
                 }
@@ -100,14 +100,14 @@ public class ChooseOne extends AppCompatActivity {
                 if(type.equals("Email")){
                     Intent loginemail = new Intent(ChooseOne.this,Delivery_Login.class);
                     startActivity(loginemail);
-                    finish();
+                   // finish();
                 }
                 if(type.equals("Phone")){
                     Intent loginphone  = new Intent(ChooseOne.this,Delivery_Loginphone.class);
                     startActivity(loginphone);
-                    finish();
+                  //  finish();
                 }
-                if(type.equals("SignUp")){
+                if(type.equals("Signup")){
                     Intent Registerdelivery  = new Intent(ChooseOne.this,Delivery_Registration.class);
                     startActivity(Registerdelivery);
                 }

@@ -50,7 +50,7 @@
             android:text="sign with mail" />
 
         <Button
-            android:id="@+id/SignwithPhone"
+            android:id="@+id/signwithPhone"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
