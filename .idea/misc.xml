@@ -8,13 +8,19 @@
         <entry key="..\:/MealUp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.124" />
         <entry key="..\:/MealUp/app/src/main/res/drawable/whitemail.xml" value="0.124" />
         <entry key="..\:/MealUp/app/src/main/res/drawable/whitephone.xml" value="0.124" />
+        <entry key="..\:/MealUp/app/src/main/res/layout/activity_chef_food_panel_bottom_navigation.xml" value="0.1609375" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_chef_registration.xml" value="0.264" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_cheflogin.xml" value="0.13541666666666666" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_chefloginphone.xml" value="0.152" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_choose_one.xml" value="0.16" />
+        <entry key="..\:/MealUp/app/src/main/res/layout/activity_customer_food_panel_bottom_navigation.xml" value="0.1609375" />
+        <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_food_panel_bottom_navigation.xml" value="0.1609375" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_login.xml" value="0.13541666666666666" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_loginphone.xml" value="0.13541666666666666" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_registration.xml" value="0.13541666666666666" />
+        <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_sendotp.xml" value="0.2269021739130435" />
+        <entry key="..\:/MealUp/app/src/main/res/layout/activity_delivery_verify_phone.xml" value="0.2269021739130435" />
+        <entry key="..\:/MealUp/app/src/main/res/layout/activity_forgot_password.xml" value="0.2269021739130435" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_login.xml" value="0.2" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_loginphone.xml" value="0.13541666666666666" />
         <entry key="..\:/MealUp/app/src/main/res/layout/activity_main.xml" value="0.1" />
@@ -27,26 +33,17 @@
         <entry key="..\:/project/app/src/main/res/drawable/btnred.xml" value="0.1" />
         <entry key="..\:/project/app/src/main/res/drawable/btnshape.xml" value="0.216" />
         <entry key="..\:/project/app/src/main/res/drawable/whitemail.xml" value="0.216" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_chef_food_panel_bottom_navigation.xml" value="0.2359375" />
         <entry key="..\:/project/app/src/main/res/layout/activity_chef_registration.xml" value="0.264" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_chef_verify_phone.xml" value="0.25" />
         <entry key="..\:/project/app/src/main/res/layout/activity_cheflogin.xml" value="0.264" />
         <entry key="..\:/project/app/src/main/res/layout/activity_chefloginphone.xml" value="0.1" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_delivery_food_panel_bottom_navigation.xml" value="0.25" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_delivery_forgot_password.xml" value="0.25" />
         <entry key="..\:/project/app/src/main/res/layout/activity_delivery_login.xml" value="0.25" />
         <entry key="..\:/project/app/src/main/res/layout/activity_delivery_loginphone.xml" value="0.25" />
         <entry key="..\:/project/app/src/main/res/layout/activity_delivery_registration.xml" value="0.25" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_delivery_sendotp.xml" value="0.25" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_delivery_verify_phone.xml" value="0.2359375" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_forgot_password.xml" value="0.25" />
         <entry key="..\:/project/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/project/app/src/main/res/layout/activity_loginphone.xml" value="0.25" />
         <entry key="..\:/project/app/src/main/res/layout/activity_main.xml" value="0.2359375" />
         <entry key="..\:/project/app/src/main/res/layout/activity_mainmenu.xml" value="0.264" />
         <entry key="..\:/project/app/src/main/res/layout/activity_registration.xml" value="0.25" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_sendotp.xml" value="0.2359375" />
-        <entry key="..\:/project/app/src/main/res/layout/activity_verify_phone.xml" value="0.25" />
       </map>
     </option>
   </component>
