@@ -100,7 +100,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                tools:ignore="MissingClass">
 
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -160,26 +161,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="State"
+                android:textColor="#676565"
+                android:textColorHighlight="#090909"
+                android:textColorHint="#0C0C0C"
+                android:textColorLink="#050505"
                 android:textSize="14sp" />
 
             <Spinner
                 android:id="@+id/Statee"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp" />
+                android:layout_marginTop="5dp"
+                android:background="#0E0E0E"
+                android:backgroundTint="#0E0E0E"
+                android:entries="@array/State"
+                android:foregroundTint="#050505" />
 
             <TextView
                 android:id="@+id/txt4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="11dp"
-                android:text="City" />
+                android:shadowColor="#090909"
+                android:text="City"
+                android:textColor="#5E5D5D"
+                android:textColorHighlight="#0B0A0A"
+                android:textColorHint="#100F0F"
+                android:textColorLink="#0E0E0E" />
 
             <Spinner
                 android:id="@+id/Citys"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dp" />
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#121111"
+                android:duplicateParentState="false"
+                android:foregroundTint="#0C0C0C" />
 
             <Button
                 android:id="@+id/Signup"
