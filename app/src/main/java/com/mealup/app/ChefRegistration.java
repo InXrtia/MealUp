@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -59,7 +60,24 @@ public class ChefRegistration extends AppCompatActivity {
         Emaill = (Button)findViewById(R.id.email);
         Phone = (Button)findViewById(R.id.phone);
 
-       // Cpp = (CountryCodePicker)findViewById(R.id.CountryCode);
+        Emaill.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Email=  new Intent(ChefRegistration.this,Cheflogin.class);
+                Email.putExtra("Home","Email");
+                startActivity(Email);
+            }
+        });
+        Phone.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent Email=  new Intent(ChefRegistration.this,Chefloginphone.class);
+                Email.putExtra("Home","Email");
+                startActivity(Email);
+            }
+        });
+
+        //Cpp = (CountryCodePicker)findViewById(R.id.CountryCode);
         Statespin.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -170,6 +188,10 @@ public class ChefRegistration extends AppCompatActivity {
                                                                 @Override
                                                                 public void onClick(DialogInterface dialog, int which) {
                                                                     dialog.dismiss();
+                                                                    String phonnumber = mobile;
+                                                                    Intent b = new Intent(ChefRegistration.this,ChefVerifyPhone.class);
+                                                                         b.putExtra("pnonenumber",phonnumber);
+                                                                         startActivity(b);
                                                                 }
                                                             });
                                                             AlertDialog Alert = builder.create();
