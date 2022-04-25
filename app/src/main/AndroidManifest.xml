@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mealup">
         <activity
+            android:name=".chefFoodPanel.chef_postDish"
+            android:exported="false" />
+        <activity
             android:name=".CustomerFoodPanel_BottomNavigation"
             android:exported="false" />
         <activity
